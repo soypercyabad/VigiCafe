@@ -3,13 +3,21 @@ from PIL import Image
 import threading
 from src.services.mover import MouseMover
 import os
+import sys
+
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except AttributeError:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)  
 
 class TrayApp:
     def __init__(self):
         self.mover = MouseMover()
         self.thread = None
-        self.icon = Icon("MouseAFK", title="VifCafe")
-        self.icon.icon = Image.open(os.path.join("assets", 'icon.png'))
+        self.icon = Icon("MouseAFK", title="VigiCafe")
+        self.icon.icon = Image.open(resource_path("assets/icon.png"))
         self.icon.menu = Menu(
             MenuItem("Iniciar", self.start),
             MenuItem("Detener", self.stop),
@@ -31,6 +39,5 @@ class TrayApp:
 
     def run(self):
         self.icon.run()
-
-           
+         
         
