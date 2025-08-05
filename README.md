@@ -19,8 +19,8 @@ Este pequeño programa evita que aplicaciones como Teams, Zoom o Slack te pongan
 ### 1. Clona el proyecto
 
 ```bash
-git clone https://github.com/tuusuario/VigiCafe-MouseKeeper.git
-cd VigiCafe-MouseKeeper
+git clone https://github.com/soypercyabad/VigiCafe.git
+cd VigiCafe
 ```
 
 ### 2. Crea entorno virtual
@@ -45,7 +45,7 @@ python -m src.main
 ---
 
 ## 🪄 Ejecutable 
-Puedes descargar el .exe desde la sección de Releases y ejecutarlo directamente. No necesita instalación de Python.
+Puedes descargar el archivo `VigiCafe.exe` desde la [sección de Releases](https://github.com/soypercyabad/VigiCafe/releases) y ejecutarlo directamente. No necesita instalación de Python.
 
 ---
 
