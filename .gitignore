@@ -1,0 +1,20 @@
+# Entorno virtual
+.env/
+venv/
+__pycache__/
+*.pyc
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de editores
+*.swp
+*.swo
+.vscode/
+.idea/
