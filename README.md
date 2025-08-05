@@ -50,7 +50,7 @@ Puedes descargar el archivo `VigiCafe.exe` desde la [sección de Releases](https
 ---
 
 ## 🧠 Créditos
-Proyecto creado por SoyPercyAbad.
+Proyecto creado por [SoyPercyAbad](https://github.com/soypercyabad).
 Inspirado en la necesidad de mantener actividad constante en apps de trabajo remoto.
 
 ---
